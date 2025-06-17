@@ -1,0 +1,30 @@
+header {
+  background-color: var(--blue-background);
+  .navbar {
+    border-bottom: 1.5px solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3rem 4rem;
+    margin: 0%;
+    h4 {
+      font-style: bold;
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+    .ulnavbar {
+      display: flex;
+      gap: 4rem;
+      padding: 1rem;
+      .linavbar {
+        transition: color 300ms ease-in;
+        font-size: 1.25rem;
+        font-weight: 400;
+        color: rgb(94, 93, 93);
+      }
+      .linavbar:hover {
+        color: var(--black);
+      }
+    }
+  }
+}

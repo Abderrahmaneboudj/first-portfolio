@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+:root {
+  font-family: "sora";
+  --blue-background: #e8fbfc;
+  --img-background-color: #457b9d;
+  --white-background: #ffffff;
+  --black: #000000;
+}
+body {
+  background-color: var(--blue-background);
+}
+.btn1 {
+  padding: 1.125rem 2rem;
+  border-radius: 6px;
+  border: 1px solid var(--img-background-color);
+  font-family: "sora";
+  background-color: #e0f9fa;
+  color: var(--img-background-color);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.btn1:hover {
+  background-color: var(--img-background-color);
+  color: white;
+}
+.btn1::after {
+  content: " ";
+  background-image: url(/images/Download.png);
+}
+.btn2 {
+  padding: 1.125rem 2rem;
+  border-radius: 6px;
+  border: 1px solid var(--img-background-color);
+  font-family: "sora";
+  background-color: #e0f9fa;
+  color: var(--img-background-color);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.btn2:hover {
+  background-color: var(--img-background-color);
+  color: white;
+}

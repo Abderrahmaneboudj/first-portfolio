@@ -1,0 +1,32 @@
+main #about {
+  background-color: var(--white-background);
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  padding: 3rem 5rem;
+  .aboutimg {
+    height: 500px;
+    width: 500px;
+    animation: slidefromleft 1s ease-out;
+  }
+  .aboutdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+  h4 {
+    font-style: bold;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--img-background-color);
+  }
+  h2 {
+    font-style: bold;
+    font-size: 3rem;
+    font-weight: 800;
+    animation: slidefromright 1s ease-out;
+  }
+  p {
+    color: #455a64;
+  }
+}

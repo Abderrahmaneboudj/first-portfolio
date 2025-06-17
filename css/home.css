@@ -1,0 +1,95 @@
+main #home {
+  background-color: var(--blue-background);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 300px;
+  margin: 4rem 5rem 3rem 6.5rem;
+  .deschome {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    h1 {
+      font-style: bold;
+      font-size: 2rem;
+      font-weight: 900;
+      animation: slidefromleft 1.3s ease-out;
+    }
+    .hi {
+      color: var(--img-background-color);
+    }
+    .divbtnhome {
+      display: flex;
+      gap: 1rem;
+    }
+  }
+  .imghome {
+    .divimg {
+      margin-top: 2.9rem;
+      margin-right: 2rem;
+      background-color: var(--img-background-color);
+      width: 300px;
+      height: 250px;
+      bottom: 50%;
+      position: relative;
+      border-radius: 7%;
+      animation: slidefromtop 1s ease-out;
+
+      img {
+        border-radius: 7%;
+        position: absolute;
+        width: 300px;
+        height: 350px;
+        bottom: 0;
+        right: 5%;
+        left: 30%;
+        transform: translateX(-30%);
+        animation: slidefromright 1s ease-in-out;
+      }
+    }
+  }
+}
+@keyframes slidefromleft {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slidefromtop {
+  from {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slidefromright {
+  from {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slidefrombottom {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

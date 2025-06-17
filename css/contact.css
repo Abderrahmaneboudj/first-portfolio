@@ -1,0 +1,22 @@
+main #contact {
+  background-color: var(--blue-background);
+  padding: 3rem 7rem 1rem 7rem;
+  h3 {
+    font-style: bold;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--img-background-color);
+  }
+  h2 {
+    font-style: bold;
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--black);
+    animation: slidefromleft 1s ease-out;
+  }
+  .contacts {
+    display: flex;
+    gap: 1rem;
+    padding-top: 5rem;
+  }
+}
